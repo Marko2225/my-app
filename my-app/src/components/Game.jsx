@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import { calculateWinner } from "../helper";
 import Board from "./Board";
+import { Redirect } from "react-router-dom"
 
-const Game = () => {
+const Game = ({ loggedIn }) => {
   const [history, setHistory] = useState([Array(9).fill(null)]);
   const [stepNumber, setStepNumber] = useState(0);
   const [xIsNext, setXisNext] = useState(true);
@@ -39,6 +40,7 @@ const Game = () => {
 
   return (
     <>
+    {loggedIn ? <Redirect to='/Game' /> : <Redirect to='/Login' />}
       <h1>React Tic Tac Toe - With Hooks</h1>
       <Board squares={history[stepNumber]} onClick={handleClick} />
       <div className="info-wrapper">

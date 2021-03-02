@@ -1,17 +1,22 @@
 {
-    "quotes": [
-        {
-            "id": 1,
-            "text": "Тврд је орах, воћка чудновата",
-            "author": "П.П.Његош"
-        }
-    ],
     "users": [
         {
             "id": 1,
-            "username": "Pera",
-            "email": "peraperic@pera.com",
-            "password": "asdf1234"
+            "username": "Admin",
+            "email": "admin@admin.com",
+            "password": "admin12345"
+        },
+        {
+          "username": "Marko",
+          "email": "marko112225@gmail.com",
+          "password": "Marko2225",
+          "id": 2
+        },
+        {
+          "username": "asasa",
+          "email": "asasa@fsdf",
+          "password": "asasasasasa1",
+          "id": 3
         }
     ]
  }
