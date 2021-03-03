@@ -34,7 +34,7 @@ const App = () => {
         <Route exact path="/Register">
           <Register />
         </Route>
-        <Route exact path="/">
+        <Route  path="/">
           <Home loggedIn={user} />
         </Route>
       </Switch>

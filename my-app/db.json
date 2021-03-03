@@ -1,22 +1,16 @@
 {
-    "users": [
-        {
-            "id": 1,
-            "username": "Admin",
-            "email": "admin@admin.com",
-            "password": "admin12345"
-        },
-        {
-          "username": "Marko",
-          "email": "marko112225@gmail.com",
-          "password": "Marko2225",
-          "id": 2
-        },
-        {
-          "username": "asasa",
-          "email": "asasa@fsdf",
-          "password": "asasasasasa1",
-          "id": 3
-        }
-    ]
- }
+  "users": [
+    {
+      "id": 1,
+      "username": "Admin",
+      "email": "admin@admin.com",
+      "password": "admin12345"
+    },
+    {
+      "username": "asasa",
+      "email": "asasa@fsdf",
+      "password": "asasasasasa1",
+      "id": 2
+    }
+  ]
+}
