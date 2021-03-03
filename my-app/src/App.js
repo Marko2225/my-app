@@ -25,16 +25,16 @@ const App = () => {
        <Nav user={user}  setUser={setUser}/>
       </nav>
       <Switch>
-        <Route path="/Login">
-          <Login setUser={setUser} />
+        <Route exact path="/Login">
+          <Login setUser={setUser} user = {user} />
         </Route>
-        <Route path="/Game">
+        <Route exact path="/Game">
           <Game loggedIn={user} />
         </Route>
-        <Route path="/Register">
+        <Route exact path="/Register">
           <Register />
         </Route>
-        <Route path="/">
+        <Route exact path="/">
           <Home loggedIn={user} />
         </Route>
       </Switch>

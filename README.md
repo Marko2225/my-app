@@ -1,30 +1,47 @@
 # my-app
-react app
 
-## Минимални услови пројекта 
+react app 
+tic tac toe 3x3
 
-1. Пројекат мора бити стилизован помоћу styledcomponents 
-    - Без коришћења чистог css,sass,...
-2. Постоји симулација аутентификације (постоје приватне и јавне руте)
-    - JSON-server - users : username и password, admin:true
-3. Морају постојати руте (react-router)
-4. Мора садржати документацију
+Contact: [LinkedIn](https://www.linkedin.com/in/marko-markovic-a3b32066)
 
-## Документација
+Plat the game online here: [demo live](https://marko2225.github.io/my-app)
 
-1. Упутство како покренути на било ком рачунару
-    - Шта све морам да инсталирам унапред
-    - Поступак инсталације и покретања
-2. Коришћене технологије
+## Instructions
+
+1. Make sure you have these installed
+	- [node.js](https://nodejs.org/)
+    - [git](https://git-scm.com/)
+
+2. Clone this repository into your local machine using the terminal (mac) or Gitbash (PC) `> git clone https://github.com/Marko2225/my-app.git`
+
+3. CD to the folder `cd my-app`
+
+4. Run `> npm install` to install the project dependencies
+
+5. Now you have to open two consoles or terminals in same folder  `my-app`
+
+6. Run `> npm run server` to start JSON server
+
+7. Run `> npm start` to start React App
+
+8. Use username: Admin 
+       password: admin12345
+       to log in
+
+8. Enjoy the game tic tac toe
+
+## Used technologies
+
     - JavaScript
-    - ReactJS, styledcomponents
+    - ReactJS,
+    - Styledcomponents
     - VSCode, Git
-3. Опис пројекта, функционалности
+    - JSON server
 
 ## Production log
 
-1. Процес развоја пројекта
-    - Шта сте урадили тај дан
+1. Additional funtions soon...
 
     
 

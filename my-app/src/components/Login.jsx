@@ -6,19 +6,20 @@ import { getAllUsers } from "../service"
 
 import {StyledLoginInput} from '../styledComponents/StyledDivInput'
 
-const Login = ({ setUser }) => {
+const Login = ({ setUser, user  }) => {
     const [username,setUsername] = useState('')
     const [password,setPassword] = useState('')
     const [error, setError] = useState('')
 
     const history = useHistory()
-
+    
     return (
         <>
+        
             <form onSubmit={(e) => {
                 e.preventDefault()
                 getAllUsers().then(res => {
-                    let user = res.data.find(el => (el.username === username || el.email === username ) && el.password === password)
+                    let user = res.data.find(el => (el.username === username ) && el.password === password)
                     if(user){
                         setUser(user)
                         history.push('/Game')
