@@ -7,8 +7,8 @@ Contact: [LinkedIn](https://www.linkedin.com/in/marko-markovic-a3b32066)
 
 Play the game online here: [demo live](https://marko2225.github.io/my-app)
 
-Use    username: Admin 
-       password: admin12345
+Use    username: `Admin` 
+       password: `admin12345`
 
 ## Instructions
 
