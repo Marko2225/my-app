@@ -44,9 +44,9 @@ Use    username: `Admin`
 
 ## Production log
 
-1. Steps
+1. Player steps
 
-2. Additional funtions soon...
+2. Additional functions soon...
 
     
 
